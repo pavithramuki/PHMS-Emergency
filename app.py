@@ -4,7 +4,6 @@ import os
 from werkzeug.utils import secure_filename
 app=Flask(__name__)
 UPLOAD_FOLDER = 'static/image'
-#ALLOWED_EXTENSIONS = set(['jpeg', 'jpg', 'png'])
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route('/')
